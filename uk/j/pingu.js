@@ -26,7 +26,7 @@ function attach_flash() {
 	if (UFO.hasFlashVersion("8","0")) {
 		if ((document.getElementById("flash_uri"))) {
 				var flash_uri = document.getElementById("flash_uri").value;
-				var flash_vars = "content_uri=m/"+flash_uri;
+				var flash_vars = "content_uri=http://theghostboi64.github.io/pinguwebarchive/uk/m/"+flash_uri;
 				var FO_mainnav = { movie:"m/shell.swf", width:"100%", height:"100%", majorversion:"8", build:"0", wmode:"transparent", flashvars: flash_vars };
 				
 				UFO.create(FO_mainnav, "flash-content");
